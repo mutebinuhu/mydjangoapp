@@ -16,6 +16,6 @@ class Post(models.Model):
         self.published_at = timezone.now()
         self.save()
 
-    def __str_(self):
+    def __str__(self):
         return self.title
     # Create your models here.
